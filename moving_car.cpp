@@ -144,7 +144,7 @@ void display(void)
       sun(20, 20, 175, 450);
 
       glPushMatrix();
-      glTranslatef(-bx, 0, 0);
+      glTranslatef(bx, 0, 0);
 
       glColor3ub(51, 51, 255);
       glBegin(GL_POLYGON);
